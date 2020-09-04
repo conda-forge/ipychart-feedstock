@@ -1,5 +1,5 @@
 {% set name = "ipychart" %}
-{% set version = "0.1.3" %}
+{% set version = "0.1.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0e188841f87379bf01105fd6b5d4649a8183d6de2be2c8b7677ea2b7d750ce7c
+  sha256: 4ec277f4b22dc503698cbaa57dd8d1e7d3c6f84d2a47212413b2e05b680660e1
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -38,9 +38,9 @@ about:
   # Reminder : check if the source distribution includes the license file in future releases.
   # PR which add LICENSE to source distribution: https://github.com/nicohlr/ipychart/pull/1
   license_file: LICENSE.txt
-  summary: 'A Jupyter - Chart.js bridge'
+  summary: A Jupyter - Chart.js bridge
 
-  description: | 
+  description: |
     ipychart is an ipywidget which allows to create dynamic, refined 
     and customizable charts within the famous Jupyter Notebook environment.
   doc_url: https://nicohlr.gitlab.io/ipychart/
