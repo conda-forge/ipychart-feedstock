@@ -5,9 +5,13 @@ Home: https://github.com/nicohlr/ipychart
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ipychart-feedstock/blob/master/LICENSE.txt)
 
 Summary: A Jupyter - Chart.js bridge
+
+Development: https://github.com/nicohlr/ipychart
+
+Documentation: https://nicohlr.gitlab.io/ipychart/
 
 ipychart is an ipywidget which allows to create dynamic, refined
 and customizable charts within the famous Jupyter Notebook environment.
