@@ -19,6 +19,7 @@ requirements:
     - python
     - python >=3.6
     - pip
+    - jupyter-packaging
   run:
     - python
     - python >=3.6
