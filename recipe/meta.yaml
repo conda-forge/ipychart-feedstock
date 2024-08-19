@@ -23,6 +23,7 @@ requirements:
     - hatchling >=1.21.1
     - jupyterlab >=4.0.0,<5
     - hatch-nodejs-version >=0.3.2
+    - hatch-jupyter-builder >=0.8.3
   run:
     - python
     - python >=3.10
