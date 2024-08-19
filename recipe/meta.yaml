@@ -20,6 +20,9 @@ requirements:
     - python >=3.10
     - pip
     - jupyter-packaging
+    - hatchling >=1.21.1
+    - jupyterlab >=4.0.0,<5
+    - hatch-nodejs-version >=0.3.2
   run:
     - python
     - python >=3.10
