@@ -1,6 +1,7 @@
 {% set name = "ipychart" %}
 {% set version = "0.5.2" %}
 
+
 package:
   name: {{ name|lower }}
   version: {{ version }}
@@ -19,6 +20,7 @@ requirements:
     - python
     - python >=3.10
     - pip
+    - nodejs
     - jupyter-packaging
     - hatchling >=1.21.1
     - jupyterlab >=4.0.0,<5
