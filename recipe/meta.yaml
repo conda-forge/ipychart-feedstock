@@ -1,5 +1,6 @@
 {% set name = "ipychart" %}
-{% set version = "0.5.1" %}
+{% set version = "0.5.2" %}
+
 
 package:
   name: {{ name|lower }}
@@ -7,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8ee383ccd73b344c13a78809a4d264fd902313a3dc647020f6cb5e4226980cd4
+  sha256: 2df0f8b0760c1c98062f29b2b32ad250c1ea245699b6798f78fdb9d014546425
 
 build:
   number: 0
